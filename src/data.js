@@ -18,7 +18,7 @@ import notepad from "./assets/images/notepad.svg";
 
 /* START HERE - add your GitHub username below
  ************************************************************** */
-export const githubUsername = "Your GitHub username here";
+export const githubUsername = "KikiG13";
 
 /* Skills
  ************************************************************** */
