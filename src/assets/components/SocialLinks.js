@@ -1,8 +1,9 @@
 // https://react-icons.github.io/react-icons/
-import { FaGithub, FaLink, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLink, FaTwitter, FaLinkedin } from "react-icons/fa";
 
 const SocialLinks = ({ githubUrl, link, twitter }) => {
   const twitterLink = `https://twitter.com/${twitter}`;
+  const linkedinLink = `https://www.linkedin.com/in/kian-gormley/`
 
   if (link === "" && twitter === null) {
     return (
@@ -10,6 +11,9 @@ const SocialLinks = ({ githubUrl, link, twitter }) => {
         <div className="social-links">
           <a href={githubUrl} target="_blank" rel="noreferrer">
             <FaGithub />
+          </a>
+          <a href={linkedinLink} target="_blank" rel="noreferrer">
+            <FaLinkedin />
           </a>
         </div>
       </>
@@ -22,6 +26,9 @@ const SocialLinks = ({ githubUrl, link, twitter }) => {
         <div className="social-links">
           <a className="mr-5" href={githubUrl} target="_blank" rel="noreferrer">
             <FaGithub />
+          </a>
+          <a className="mr-6" href={linkedinLink} target="_blank" rel="noreferrer">
+            <FaLinkedin />
           </a>
 
           <a href={link} target="_blank" rel="noreferrer">
@@ -39,6 +46,9 @@ const SocialLinks = ({ githubUrl, link, twitter }) => {
           <a className="mr-5" href={githubUrl} target="_blank" rel="noreferrer">
             <FaGithub />
           </a>
+          <a className="mr-6" href={linkedinLink} target="_blank" rel="noreferrer">
+            <FaLinkedin />
+          </a>
 
           <a href={twitterLink} target="_blank" rel="noreferrer">
             <FaTwitter />
@@ -53,6 +63,9 @@ const SocialLinks = ({ githubUrl, link, twitter }) => {
       <div className="social-links">
         <a href={githubUrl} target="_blank" rel="noreferrer">
           <FaGithub />
+        </a>
+        <a href={linkedinLink} target="_blank" rel="noreferrer">
+          <FaLinkedin />
         </a>
 
         <a className="mx-5" href={link} target="_blank" rel="noreferrer">
