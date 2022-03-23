@@ -99,7 +99,7 @@ export const projectData = [
 // Share the contact info you are comfortable with (no dashes for phone numbers)
 // If no info provided a button with a link to mailchimp will be rendered, update the link if you want to use this option
 export const contactInfo = {
-  email: "",
+  email: "kian.gormley13@aol.com",
   phone: "",
   mailChimp: "https://www.mailchimp.com/",
 };
