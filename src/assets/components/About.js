@@ -30,8 +30,9 @@ const About = ({ theme, setTheme, githubUrl, name, link, bio, twitter, linkedinU
           width="45%"
         /> */}
         <h1>{name}</h1>
+        <h3>Software Engineer</h3>
         <hr />
-        <p>Software Engineer</p>
+        <p>I am a Software Engineer who is a talented problem solver using a broad skill set including, React, JavaScript, HTML/CSS, and Python. From my background in global education, languages, sales, I am highly adaptable and bring a unique perspective.  I will bring my positive, collaborative, growth mindset attitude to any situation whether I am working in a team or independently.</p>
         <SocialLinks {...socialData} />
         <Link className="scroll" to="skills" smooth={true} duration={750}>
           <FaChevronCircleDown id="scroll-down" />

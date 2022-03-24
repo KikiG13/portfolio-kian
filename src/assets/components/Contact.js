@@ -7,6 +7,7 @@ import { contactInfo } from "../../data";
 
 const mail = `mailto:${contactInfo.email}`;
 const phone = `tel:${contactInfo.phone}`;
+const resume = `https://docs.google.com/document/d/190BTUarmd9YVrU8v0vzfPuUUJx81tNHBerBc8SKhBMk/edit#heading=h.gakq9yy7aenw`
 
 const Contact = ({ theme, avatar, name }) => {
   const newTheme = `${theme} d-flex flex-column justify-content-center`;
@@ -47,6 +48,11 @@ const Contact = ({ theme, avatar, name }) => {
             ) : (
               ""
             )}
+            {/* <br />
+            {
+            <a href={resume}></a>
+            </a>
+            } */}
           </div>
         </div>
         <Link className="scroll" to="about" smooth={true} duration={750}>
