@@ -8,6 +8,7 @@ import {
   FaNpm,
   FaGitAlt,
   FaGithubSquare,
+  FaPython
 } from "react-icons/fa";
 import { SiJavascript } from "react-icons/si";
 
@@ -69,6 +70,11 @@ export const skillData = [
     skill: <FaGithubSquare className="display-4" />,
     name: "GitHub",
   },
+  {
+    id: 10,
+    skill: <FaPython className="display-4" />,
+    name: "Python",
+  },
 ];
 
 /* Projects
@@ -78,6 +84,10 @@ export const filteredProjects = [
   "Background-Generator",
   "github-react-portfolio-template",
   "notepad",
+  "Caloreator-Project4-Frontend",
+  "Golocal",
+  "tictactoe-kian",
+  "travelife-client"
 ];
 
 // List the card images you want to include in the same order as the repos above (alphabetically)
