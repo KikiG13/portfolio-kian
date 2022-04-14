@@ -4,10 +4,11 @@ import { Link } from "react-scroll";
 import { FiMail } from "react-icons/fi";
 import { FaChevronCircleUp } from "react-icons/fa";
 import { contactInfo } from "../../data";
+import resume from "../../Kian Gormley - Resume.pdf"
+import styles from "../styles/resume.module.css"
 
 const mail = `mailto:${contactInfo.email}`;
 const phone = `tel:${contactInfo.phone}`;
-const resume = `https://docs.google.com/document/d/190BTUarmd9YVrU8v0vzfPuUUJx81tNHBerBc8SKhBMk/edit#heading=h.gakq9yy7aenw`
 
 const Contact = ({ theme, avatar, name }) => {
   const newTheme = `${theme} d-flex flex-column justify-content-center`;
@@ -30,6 +31,9 @@ const Contact = ({ theme, avatar, name }) => {
             ) : (
               ""
             )}
+            <br />
+            <a href={resume}
+            className={styles.resume}>Download resume</a>
             <br />
             {contactInfo.phone && contactInfo.phone !== "" ? (
               <a href={phone}>
