@@ -150,12 +150,14 @@ hr {
     border: 2px solid $reactBlue;
     background-color: #292b2c;
     img {
-      padding: 1rem;
-      max-height: 15rem;
+      // padding: 1rem;
+      // max-height: 15rem;
+      background-image: 100% 100%;
     }
     .card-title {
       text-decoration: underline;
       text-decoration-color: $reactBlue;
+      // background-color: red;
     }
   }
 }
