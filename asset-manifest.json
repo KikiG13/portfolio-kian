@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio-kian/static/css/main.b8ccdf58.css",
-    "main.js": "/portfolio-kian/static/js/main.318c4e49.js",
+    "main.css": "/portfolio-kian/static/css/main.a1aa29ff.css",
+    "main.js": "/portfolio-kian/static/js/main.b8f93f3e.js",
+    "static/media/GoLocal Screenshot.PNG": "/portfolio-kian/static/media/GoLocal Screenshot.3d2d06814cdcf88d68b0.PNG",
+    "static/media/Trafelife screenshot.png": "/portfolio-kian/static/media/Trafelife screenshot.9396a4d269cf9f82882f.png",
     "static/media/PermanentMarker-Regular.ttf": "/portfolio-kian/static/media/PermanentMarker-Regular.109a10dca0508e41aa12.ttf",
+    "static/media/Kian Gormley - Resume.pdf": "/portfolio-kian/static/media/Kian Gormley - Resume.6888159406e8d0d20608.pdf",
     "static/media/notepad.svg": "/portfolio-kian/static/media/notepad.00bfae70d069664c39fc346cb76aafb5.svg",
     "static/media/logo.svg": "/portfolio-kian/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "static/media/colors.svg": "/portfolio-kian/static/media/colors.1aa9d06655989824913582b785752369.svg",
     "index.html": "/portfolio-kian/index.html",
-    "main.b8ccdf58.css.map": "/portfolio-kian/static/css/main.b8ccdf58.css.map",
-    "main.318c4e49.js.map": "/portfolio-kian/static/js/main.318c4e49.js.map"
+    "main.a1aa29ff.css.map": "/portfolio-kian/static/css/main.a1aa29ff.css.map",
+    "main.b8f93f3e.js.map": "/portfolio-kian/static/js/main.b8f93f3e.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8ccdf58.css",
-    "static/js/main.318c4e49.js"
+    "static/css/main.a1aa29ff.css",
+    "static/js/main.b8f93f3e.js"
   ]
 }
