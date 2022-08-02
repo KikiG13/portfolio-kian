@@ -4,8 +4,8 @@ import { Link } from "react-scroll";
 import { FiMail } from "react-icons/fi";
 import { FaChevronCircleUp } from "react-icons/fa";
 import { contactInfo } from "../../data";
-import resume from "../../Kian Gormley - Resume.pdf"
-import styles from "../styles/resume.module.css"
+import resume from "../../Kian Gormley - Resume software.pdf";
+import styles from "../styles/resume.module.css";
 
 const mail = `mailto:${contactInfo.email}`;
 const phone = `tel:${contactInfo.phone}`;

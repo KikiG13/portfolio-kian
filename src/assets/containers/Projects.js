@@ -16,7 +16,7 @@ const Projects = ({ theme }) => {
   return (
     <section id="projects" className={newTheme}>
       <div className="container text-center">
-        <h2>Projects</h2>
+        <h2>Experience</h2>
         <hr />
         <CardColumns>
               <Card >
