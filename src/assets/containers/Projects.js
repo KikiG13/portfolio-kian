@@ -2,6 +2,7 @@ import React from "react";
 // https://react-bootstrap.github.io/components/cards/#card-columns
 import { CardColumns, Card } from "react-bootstrap";
 import img from "../images/GoLocal Screenshot.PNG"
+import img1 from "../images/Trafelife screenshot.png"
 
 
 // Image
@@ -27,6 +28,16 @@ const Projects = () => {
                 </Card.Body>
               </Card>
               <Card >
+                <Card.Img variant="top" src={img1} />
+                <Card.Body>
+                  <a href="https://kikig13.github.io/travelife-client/" target="_blank" rel="noreferrer">
+                    <Card.Title className="d-inline-block">
+                      <h1>Travelife</h1>
+                    </Card.Title>
+                  </a>
+                </Card.Body>
+              </Card>
+              {/* <Card >
                 <Card.Img variant="top" src={defualtImage} />
                 <Card.Body>
                   <a href="https://reactisland.github.io/project-frontend/" target="_blank" rel="noreferrer">
@@ -35,17 +46,7 @@ const Projects = () => {
                     </Card.Title>
                   </a>
                 </Card.Body>
-              </Card>
-              <Card >
-                <Card.Img variant="top" src={defualtImage} />
-                <Card.Body>
-                  <a href="https://reactisland.github.io/project-frontend/" target="_blank" rel="noreferrer">
-                    <Card.Title className="d-inline-block">
-                      <h1>GoLocal</h1>
-                    </Card.Title>
-                  </a>
-                </Card.Body>
-              </Card>
+              </Card> */}
         </CardColumns>
       </div>
     </section>
