@@ -6,14 +6,16 @@ import img1 from "../images/Trafelife screenshot.png"
 
 
 // Image
-import defualtImage from "../images/logo.svg";
+// import defualtImage from "../images/logo.svg";
 
-const Projects = () => {
+const Projects = ({ theme }) => {
+  const newTheme = `${theme} d-flex flex-column min-vh-100 justify-content-center`;
+
   
 
   return (
-    <section id="projects">
-      <div className="container">
+    <section id="projects" className={newTheme}>
+      <div className="container text-center">
         <h2>Projects</h2>
         <hr />
         <CardColumns>
